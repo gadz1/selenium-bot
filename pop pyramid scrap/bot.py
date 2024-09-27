@@ -3,8 +3,6 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
 from time import sleep
 
-finalRes=[]
-
 service = Service("msedgedriver.exe")
 driver = webdriver.Edge(service=service)
 driver.get("https://www.populationpyramid.net/")
